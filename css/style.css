@@ -64,12 +64,79 @@ body{
     position: relative;
 }
 
+.bulletsstyle button div {
+    display: flex;
+    flex-direction: row;
+}
+
+.bulletsstyle button img{
+    max-width: 120px;
+    height: 33px;
+}
+
+.glide__bullet .const{
+    color: #F2F2F2;
+    opacity: 0.6000000238418579;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.176px;
+}
+
+button.glide__bullet.glide__bullet--active .const{
+    color: #FFF;
+    opacity: 1;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.176px;
+}
+
+button.glide__bullet.glide__bullet--active .thetoggled{
+    display: inline;
+    visibility: visible;
+}
+
+.glide__bullet .thetoggled{
+    display: none;
+    visibility: hidden;
+}
+
+.bulletsstyle button .thetoggled{
+    margin-left: 6px;
+    color: #FFF;
+font-family: Jost;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.176px;
+}
+
+
+
+.bulletsstyle button{
+    background-color: none;
+    background: none;
+    border: none;
+}
+
 .heroslidesix{
     display: flex;
     flex-direction: row;
     background: url('../images/heroslide6.svg');
     color: #FBFBFF;
     position: relative;
+}
+
+.bulletsstyle{
+    position: absolute;
+    bottom: 40px;
+    right: 4.2%;
 }
 
 .heroleft{
@@ -181,6 +248,7 @@ opacity: 0.8500000238418579;
 
 #whatwedo .line{
     margin-bottom: 25.44px;
+    max-width: 100%;
 }
 
 .moredetail{
@@ -413,6 +481,7 @@ letter-spacing: -0.235px;
 .column2 .ceopicture{
     height: 520px;
     max-width: 460px;
+    width: 100%;
     object-fit: cover;
 }
 
