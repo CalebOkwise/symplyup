@@ -226,8 +226,7 @@ padding-top: 36px;
 #whatwedo{
     display: flex;
     flex-direction: row;
-    max-width: 100%;
-    box-sizing: border-box;
+    width: 100%;
 }
 
 .whatwedoleft{
@@ -277,7 +276,7 @@ max-width: 359px;
 .whatwedoright{
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    width: 50%;
     padding-bottom: 170px;
 }
 
@@ -285,6 +284,7 @@ max-width: 359px;
     display: flex;
     flex-direction: row;
     padding-bottom: 80px;
+    width: 100%;
 }
 
 .whatwedoright .rightbottom{
@@ -303,8 +303,8 @@ margin-bottom: 25px;
 }
 
 .whatwedoright .aside{
-    max-width: 50%;
-    margin-right: 15px;
+    width: 50%;
+    padding-right: 15px;
 }
 
 .whatwedoright .cside{
@@ -316,8 +316,10 @@ margin-bottom: 25px;
     max-width: 50%;
 }
 
-.whatwedoright .line{
+#whatwedo .whatwedoright .line{
+    width: 100%;
     max-width: 286px;
+    height: 0.56px;
 }
 
 .strategydetail{
@@ -366,6 +368,7 @@ max-width: 250px;
 
 #developmentlifecycle{
     background: #040628;
+    width: 100%;
 }
 
 .lifecycle{
@@ -446,11 +449,32 @@ line-height: 64px; /* 266.667% */
 letter-spacing: -0.235px;
 }
 
+.contenttext p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.235px;
+}
+
+.contentheading{
+    color: #FFF;
+font-family: Inter;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 153.846% */
+letter-spacing: -0.255px;
+padding-left: 21%;
+}
+
 .thecontent{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    padding-left: 21%;
 }
 
 .verticalline{
@@ -483,6 +507,51 @@ letter-spacing: -0.235px;
     max-width: 460px;
     width: 100%;
     object-fit: cover;
+}
+
+.theidea, .meetings, .sprints, .repeat, .launch, .test{
+    width: 100%;
+}
+
+.launch{
+    padding-left: 32.7%;
+}
+
+.test{
+    padding-left: 26.6%;
+}
+
+.repeat{
+    padding-left: 19.9%;
+}
+
+.test, .repeat, .sprints, .launch, .maintenance{
+    margin-top: 40px;
+}
+
+.sprints{
+    padding-left: 13.25%;
+}
+
+.meetings {
+    padding-left: 6%;
+    margin-top: 60px;
+}
+
+.dropdown{
+    width: 100%;
+}
+
+.therow{
+    width: 100%;
+}
+
+.rectangle{
+    width: 16.5%;
+}
+
+.therow .line{
+    width: 83.5%;
 }
 
 .designation{
