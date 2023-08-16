@@ -21,6 +21,7 @@ body{
 
 #hero_section{
     height: 840px;
+    width: 100%;
 
 }
 
@@ -369,6 +370,7 @@ max-width: 250px;
 #developmentlifecycle{
     background: #040628;
     width: 100%;
+    padding-bottom: 92px;
 }
 
 .lifecycle{
@@ -410,6 +412,7 @@ padding-bottom: 120px;
     justify-content: center;
     align-items: center;
     justify-items: center;
+    cursor: pointer;
 }
 
 .rectangle p{
@@ -511,6 +514,15 @@ padding-left: 21%;
 
 .theidea, .meetings, .sprints, .repeat, .launch, .test{
     width: 100%;
+}
+
+.dropcontent{
+    transition: ease-in;
+}
+
+.hidden{
+    display: none;
+    visibility: hidden;
 }
 
 .launch{

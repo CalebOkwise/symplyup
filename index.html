@@ -300,14 +300,16 @@ Strategy & Art Direction
 
         <div class="dropdown">
 
+            <!-- THE IDEA -->
             <div class="theidea">
                 <div class="therow">
-                <div class="rectangle">
+                <div class="rectangle theideabtn">
                     <P>THE IDEA </P>
             </div>
             <img src="images/whiteline.svg" alt="" class="line">
             </div>
-            <div class="thecontent">
+            <div id="theideacontent" class="dropcontent hidden">
+            <div  class="thecontent">
                 <div class="contentline">
                     <img src="images/verticalline.svg" alt="" class="verticalline">
                 </div>
@@ -316,17 +318,18 @@ Strategy & Art Direction
                    <br> <br> You have a specific pain point to resolve?</p>
                 </div>
             </div>
+        </div>
             </div>
 
 <!-- MEETINGS -->
             <div class="meetings">
                 <div class="therow">
-                <div class="rectangle">
+                <div class="rectangle meetingsbtn">
                     <P> MEETINGS </P>
             </div>
             <img src="images/whiteline.svg" alt="" class="line">
             </div>
-            <div class="dropcontent">
+            <div id="meetingscontent" class="dropcontent hidden">
                 <p class="contentheading"> TOGETHER WE: </p>
                 <div class="thecontent">
                 <div class="contentline">
@@ -345,12 +348,12 @@ Strategy & Art Direction
             <!-- SPRINTS -->
             <div class="sprints">
                 <div class="therow">
-                <div class="rectangle">
+                <div class="rectangle sprintsbtn">
                     <P> SPRINTS </P>
             </div>
             <img src="images/whiteline.svg" alt="" class="line">
             </div>
-            <div class="dropcontent">
+            <div id="sprintscontent" class="dropcontent hidden">
                 <div class="thecontent">
                 <div class="contentline">
                     <img src="images/verticalline3.svg" alt="" class="verticalline">
@@ -367,12 +370,12 @@ Strategy & Art Direction
             <!-- REPEAT -->
             <div class="repeat">
                 <div class="therow">
-                <div class="rectangle">
+                <div class="rectangle repeatbtn">
                     <P> REPEAT </P>
             </div>
             <img src="images/whiteline.svg" alt="" class="line">
             </div>
-            <div class="dropcontent">
+            <div id="repeatcontent" class="dropcontent hidden">
                 <div class="thecontent">
                 <div class="contentline">
                     <img src="images/check-circle.svg" alt="" class="verticalline">
@@ -388,12 +391,12 @@ Strategy & Art Direction
             <!-- TEST -->
             <div class="test">
                 <div class="therow">
-                <div class="rectangle">
+                <div class="testbtn rectangle">
                     <P> TEST </P>
             </div>
             <img src="images/whiteline.svg" alt="" class="line">
             </div>
-            <div class="dropcontent">
+            <div id="testcontent" class="dropcontent hidden">
                 <div class="thecontent">
                 <div class="contentline">
                     <img src="images/verticalline4.svg" alt="" class="verticalline">
@@ -413,12 +416,12 @@ Strategy & Art Direction
             <!-- launch -->
             <div class="launch">
                 <div class="therow">
-                <div class="rectangle">
+                <div class="launchbtn rectangle">
                     <P> LAUNCH </P>
             </div>
             <img src="images/whiteline.svg" alt="" class="line">
             </div>
-            <div class="dropcontent">
+            <div id="launchcontent" class="dropcontent hidden">
                 <div class="thecontent">
                 <div class="contentline">
                     <img src="images/check-circle.svg" alt="" class="verticalline">
@@ -434,12 +437,12 @@ Strategy & Art Direction
             <!-- maintenance -->
             <div class="maintenance">
                 <div class="therow">
-                <div class="rectangle">
+                <div class="maintenancebtn rectangle">
                     <P> MAINTENANCE </P>
             </div>
             <img src="images/whiteline.svg" alt="" class="line">
             </div>
-            <div class="dropcontent">
+            <div id="maintenancecontent" class="dropcontent hidden">
                 <div class="thecontent">
                 <div class="contentline">
                     <img src="images/maintenance.svg" alt="" class="verticalline">
@@ -617,6 +620,7 @@ This is where we come in, EliteTechne provide the service of building the ideal 
 
 
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script>
         const config = {
@@ -625,5 +629,6 @@ This is where we come in, EliteTechne provide the service of building the ideal 
         };
           new Glide('.glide', config).mount();
     </script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
