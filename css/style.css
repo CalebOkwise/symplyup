@@ -22,7 +22,13 @@ body{
 #hero_section{
     height: 840px;
     width: 100%;
+}
 
+#hero_section .navbar{
+    position: absolute;
+    z-index: 5000;
+    padding-left: 5.56%;
+    padding-right: 5.56%;
 }
 
 .heroslideone{
