@@ -642,6 +642,9 @@ opacity: 0.6;
     max-width: 100%;
     padding-left: 25.078125%;
     padding-top: 61px;
+    padding-right: 4%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .personsprofile{
