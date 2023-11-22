@@ -24,11 +24,32 @@ body{
     width: 100%;
 }
 
+.navscreen{
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 60px;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 5.6%;
+    padding-right: 5.6%;
+    z-index: 50000;
+    position: fixed;    
+}
+
+.screennavbar{
+    display: flex;
+    justify-content: space-between;
+}
+
 #hero_section .navbar{
-    position: absolute;
+    position: fixed;
     z-index: 5000;
     padding-left: 5.56%;
     padding-right: 5.56%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .heroslideone{
@@ -582,6 +603,45 @@ font-style: normal;
 font-weight: 600;
 line-height: 28px;
 margin-top: 15px;
+}
+
+.off{
+    display: none;
+    visibility: hidden;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.rowleft ul li{
+    list-style: none;
+}
+
+.rowleft ul li a{
+    text-decoration: none;
+    color: #121314;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 116.667% */
+letter-spacing: -0.47px;
+opacity: 0.6;
+}
+
+.navscreenline{
+    margin-bottom: 6px;
+}
+
+.pservices{
+    margin-bottom: 0!important;
+}
+
+.maincontents{
+    width: 100%;
+    max-width: 100%;
+    padding-left: 25.078125%;
+    padding-top: 61px;
 }
 
 .personsprofile{

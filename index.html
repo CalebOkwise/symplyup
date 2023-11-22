@@ -5,20 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="icon" href="">
     <title>EliteTechne</title>
 </head>
 
 
 <body>
     <section id="hero_section">
-        <div class="navbar">
-            <img src="images/elitetechnewhite.svg" alt="">
-            <img src="images/menubtn.svg" alt="">
+
+        <div class="navscreen off">
+            <div class="screennavbar">
+                <img src="images/elitechnecoloured.svg" alt="">
+                <img src="images/closeicon.svg" alt="" class="closescreen pointer">
+            </div> 
+
+            <div class="maincontents">
+                <div class="rowleft">
+                    <p class="pservices">
+                        SERVICES
+                    </p>
+                    <img src="images/navscreenline.svg" alt="" class="navscreenline">
+                    <ul>
+                        <li><a href="#heroslideone" class="linka">
+                            Product Management
+                        </a>
+                        </li>
+                        <li><a href="#heroslidetwo" class="linkb">
+                            UI/UX Design
+                        </a>
+                        </li>
+                        <li><a href="#heroslidethree" class="linkc">
+                            Graphic & Branding
+                        </a>
+                        </li>
+                        <li><a href="#heroslidefour" class="linkd">
+                            Content Creation
+                        </a>
+                        </li>
+                        <li><a href="#heroslidefive" class="linke">
+                            Web Development
+                        </a>
+                        </li>
+                        <li><a href="#heroslidesix" class="linkf">
+                            Mobile Application
+                        </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="rowright">
+
+                </div>
+            </div>
+
         </div>
+
+        <div class="navbar">
+            <img src="images/elitetechnewhite.svg" alt="" id="logoimage">
+            <img src="images/menubtn.svg" alt="" id="navicon" class="pointer">
+        </div>
+
+        
         <div class="glide">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">   
-                    <li class="glide__slide heroslideone">
+                    <li class="glide__slide heroslideone" id="heroslideone">
                     <div class="heroleft">
             <p class="herotitle">Product Management</p>
 
@@ -44,7 +95,7 @@
         </div>
     </li>
 
-    <li class="glide__slide heroslidetwo">
+    <li class="glide__slide heroslidetwo" id="heroslidetwo">
         <div class="heroleft">
 <p class="herotitle">UI/UX Design</p>
 
@@ -68,7 +119,7 @@
 </div>
 </li>
 
-<li class="glide__slide heroslidethree">
+<li class="glide__slide heroslidethree" id="heroslidethree">
     <div class="heroleft">
 <p class="herotitle">Graphics Design & Branding</p>
 
@@ -92,7 +143,7 @@
 </div>
 </li>
 
-<li class="glide__slide heroslidefour">
+<li class="glide__slide heroslidefour" id="heroslidefour">
     <div class="heroleft">
 <p class="herotitle">Content Creation</p>
 
@@ -116,7 +167,7 @@
 </div>
 </li>
 
-<li class="glide__slide heroslidefive">
+<li class="glide__slide heroslidefive" id="heroslidefive">
     <div class="heroleft">
 <p class="herotitle">Web Development</p>
 
@@ -140,7 +191,7 @@
 </div>
 </li>
 
-<li class="glide__slide heroslidesix">
+<li class="glide__slide heroslidesix" id="heroslidesix">
     <div class="heroleft">
 <p class="herotitle">Mobile Application</p>
 
