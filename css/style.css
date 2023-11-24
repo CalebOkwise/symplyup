@@ -647,6 +647,43 @@ opacity: 0.6;
     justify-content: space-between;
 }
 
+.rowright{
+    margin-top: 65px;
+}
+.rowright p{
+    margin-bottom: 20px!important;
+}
+
+.rowright p a{
+    color: rgba(18, 19, 20, 0.80);
+font-family: Inter;
+position: relative;
+text-decoration: none;
+font-size: 17.5px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.172px;
+text-transform: uppercase;
+opacity: 0.8;
+}
+
+.rowright p a::before{
+    content: '';
+    background-color: #1C40C9;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    z-index: -10;
+    transition: 0.3s ease-in-out;
+}
+
+.rowright p a:hover::before{
+    width: 100%;
+}
+
 .personsprofile{
     color: #606060;
 font-family: Inter;
