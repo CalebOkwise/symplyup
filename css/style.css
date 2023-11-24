@@ -649,6 +649,7 @@ opacity: 0.6;
 
 .rowright{
     margin-top: 65px;
+    position: relative;
 }
 .rowright p{
     margin-bottom: 20px!important;
@@ -693,6 +694,26 @@ font-weight: 400;
 line-height: 28px;
 margin-top: 7px;
 max-width: 350px;
+}
+
+.rrbtm{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.rrbtm p{
+    font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+opacity: 0.8;
+color: #121314;
+margin-bottom: 0px!important;
+}
+
+.rrbtm img{
+    margin-left: 22px;
 }
 
 #ceo .prdimage{
