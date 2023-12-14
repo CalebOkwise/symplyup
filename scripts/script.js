@@ -10,7 +10,7 @@ $(document).ready(function(){
     $thecontent = $('.thecontent');
     $dropcontent = $('.dropcontent');
     
-    $ideabtn.click(function (){
+    function ideafunction(){
         $dropcontent.toggleClass('hidden');
         document.getElementById("meetingscontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("sprintscontent").setAttribute("class", "dropcontent hidden");
@@ -18,19 +18,9 @@ $(document).ready(function(){
         document.getElementById("testcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("launchcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("maintenancecontent").setAttribute("class", "dropcontent hidden");
-    })
+    }
 
-    $meetingsbtn.click(function (){
-        $dropcontent.toggleClass('hidden');
-        document.getElementById("theideacontent").setAttribute("class", "dropcontent hidden");
-        document.getElementById("sprintscontent").setAttribute("class", "dropcontent hidden");
-        document.getElementById("repeatcontent").setAttribute("class", "dropcontent hidden");
-        document.getElementById("testcontent").setAttribute("class", "dropcontent hidden");
-        document.getElementById("launchcontent").setAttribute("class", "dropcontent hidden");
-        document.getElementById("maintenancecontent").setAttribute("class", "dropcontent hidden");
-    })
-
-    $sprintsbtn.click(function (){
+    function sprintfunction(){
         $dropcontent.toggleClass('hidden');
         document.getElementById("theideacontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("meetingscontent").setAttribute("class", "dropcontent hidden");
@@ -38,9 +28,19 @@ $(document).ready(function(){
         document.getElementById("testcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("launchcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("maintenancecontent").setAttribute("class", "dropcontent hidden");
-    })
+    }
 
-    $repeatbtn.click(function (){
+    function meetingsfunction(){
+        $dropcontent.toggleClass('hidden');
+        document.getElementById("theideacontent").setAttribute("class", "dropcontent hidden");
+        document.getElementById("sprintscontent").setAttribute("class", "dropcontent hidden");
+        document.getElementById("repeatcontent").setAttribute("class", "dropcontent hidden");
+        document.getElementById("testcontent").setAttribute("class", "dropcontent hidden");
+        document.getElementById("launchcontent").setAttribute("class", "dropcontent hidden");
+        document.getElementById("maintenancecontent").setAttribute("class", "dropcontent hidden");
+    }
+
+    function repeatfunction(){
         $dropcontent.toggleClass('hidden');
         document.getElementById("theideacontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("meetingscontent").setAttribute("class", "dropcontent hidden");
@@ -48,9 +48,10 @@ $(document).ready(function(){
         document.getElementById("testcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("launchcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("maintenancecontent").setAttribute("class", "dropcontent hidden");
-    })
+    }
 
-    $testbtn.click(function (){
+    
+    function testfunction(){
         $dropcontent.toggleClass('hidden');
         document.getElementById("theideacontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("meetingscontent").setAttribute("class", "dropcontent hidden");
@@ -58,9 +59,11 @@ $(document).ready(function(){
         document.getElementById("repeatcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("launchcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("maintenancecontent").setAttribute("class", "dropcontent hidden");
-    })
+    }
 
-    $launchbtn.click(function (){
+    
+
+    function launchfunction(){
         $dropcontent.toggleClass('hidden');
         document.getElementById("theideacontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("meetingscontent").setAttribute("class", "dropcontent hidden");
@@ -68,9 +71,10 @@ $(document).ready(function(){
         document.getElementById("repeatcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("testcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("maintenancecontent").setAttribute("class", "dropcontent hidden");
-    })
+    }
 
-    $maintenancebtn.click(function (){
+
+    function maintenancefunction() {
         $dropcontent.toggleClass('hidden');
         document.getElementById("theideacontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("meetingscontent").setAttribute("class", "dropcontent hidden");
@@ -78,8 +82,24 @@ $(document).ready(function(){
         document.getElementById("repeatcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("testcontent").setAttribute("class", "dropcontent hidden");
         document.getElementById("launchcontent").setAttribute("class", "dropcontent hidden");
-    })
+    }
+    
 
+    $ideabtn.mouseenter(ideafunction);   
+    $ideabtn.mouseleave(ideafunction);
+    $sprintsbtn.mouseenter(sprintfunction);   
+    $sprintsbtn.mouseleave(sprintfunction);
+    $meetingsbtn.mouseenter(meetingsfunction);   
+    $meetingsbtn.mouseleave(meetingsfunction);
+    $repeatbtn.mouseenter(repeatfunction);   
+    $repeatbtn.mouseleave(repeatfunction);
+    $testbtn.mouseenter(testfunction);   
+    $testbtn.mouseleave(testfunction);
+    $launchbtn.mouseenter(launchfunction);   
+    $launchbtn.mouseleave(launchfunction);
+    $maintenancebtn.mouseover(maintenancefunction);
+    $maintenancebtn.mouseleave(maintenancefunction);
+    
     var scrollPoint1 = 840;
     var scrollPoint2 = 1740;
     var scrollPoint3 = 2863;
