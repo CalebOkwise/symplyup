@@ -1253,4 +1253,9 @@ line-height: normal;
     .whatwedoright{
         width: 100%;
     }
+
+    .bluespace {
+        display: none;
+        visibility: hidden;
+    }
 }
