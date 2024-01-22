@@ -1231,7 +1231,7 @@ line-height: normal;
 
     .bulletsstyle {
         position: absolute;
-        bottom: 10px;
+        bottom: 5px;
         right: 8%;
         left: 8%;
         display: flex;
@@ -1256,6 +1256,7 @@ line-height: normal;
 
     .whatwedoright{
         width: 100%;
+        margin-top: 80px;
     }
 
     .bluespace {
@@ -1273,5 +1274,49 @@ line-height: normal;
 
     .moredetail {
         max-width: 100%;
+    }
+
+    .strategydetail {
+        max-width: 100%;
+    }
+
+    .bside{
+        margin-top: 80px;
+    }
+
+    .whatwedoright .rightbottom {
+        flex-direction: column;
+    }
+
+    .whatwedoright .cside {
+        max-width: 100%;
+        margin-right: 0px;
+    }
+
+    #whatwedo .whatwedoright .line {
+        width: 95.5%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .dside{
+        margin-top: 80px;
+    }
+
+    .rightbottomdetail {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .whatwedoright .bside {
+        max-width: 100%;
+        padding-left: 0px;
+    }
+    .whatwedoright .righttop {
+        flex-direction: column;
+    }
+
+    .whatwedoright .aside {
+        width: 100%;
     }
 }
