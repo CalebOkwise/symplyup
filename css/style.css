@@ -1194,6 +1194,8 @@ line-height: normal;
 @media only screen and (max-width: 720px){
     .heroslideone, .heroslidefive,.heroslidefour, .heroslidetwo, .heroslidethree, .heroslidesix {
         flex-direction: column-reverse;
+        background-size: contain;
+        background-repeat: no-repeat;
     }   
    /* #hero_section {
         height: 800px;
@@ -1202,9 +1204,10 @@ line-height: normal;
     .heroleft{
         width: 100%;
         padding-left: 8%;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-right: 8%;
     height: 49%;
+    fill: linear-gradient(149deg, #0F1417 -5.85%, rgba(4, 6, 40, 0.85) 84.74%, #040628 84.74%);
     }
 
     .herotitle {
@@ -1228,7 +1231,7 @@ line-height: normal;
 
     .bulletsstyle {
         position: absolute;
-        bottom: 15px;
+        bottom: 10px;
         right: 8%;
         left: 8%;
         display: flex;
@@ -1248,6 +1251,7 @@ line-height: normal;
 
     .whatwedoleft{
         width: 100%;
+        padding-right: 0px;
     }
 
     .whatwedoright{
@@ -1257,5 +1261,17 @@ line-height: normal;
     .bluespace {
         display: none;
         visibility: hidden;
+    }
+
+    .section{
+        padding-top: 60px;
+    }
+
+    #whatwedo .line {
+        width: 95.5%;
+    }
+
+    .moredetail {
+        max-width: 100%;
     }
 }
