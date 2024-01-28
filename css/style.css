@@ -907,6 +907,8 @@ box-sizing: border-box;
     padding-left: 8.3%;
     display: flex;
     box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
 }
 
 .ctrowone{
@@ -1364,7 +1366,7 @@ line-height: normal;
     }
 
     #ceo{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .prdtext {
@@ -1374,9 +1376,49 @@ line-height: normal;
 
     #ceo .column1 {
         width: 100%;
+        margin-top: 120px;
     }
 
     #ceo .column2 {
         width: 100%;
     }
+
+    #contactus{
+        padding-right: 8.3%;
+    }
+
+    .ctrowone {
+        flex-direction: column;
+    }
+
+    .contactl {
+        width: 100%;
+    }
+
+    .contactr {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .greybox p {
+        max-width: 100%!important;
+    }
+
+    #navbar {
+        width: 100%;
+    }
+
+    .greybox {
+    padding-right: 9.6%;
+    }
+
+    .ctaddress p {
+        max-width: 100%;
+    }
+
+    #hero_section .navbar {
+        width: 100%;
+        max-width: 100%;
+    }
+
 }
