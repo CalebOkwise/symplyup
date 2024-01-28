@@ -1467,14 +1467,16 @@ div#navbar.navbar{
 */
 img#logoimage {
     width: 32.4%;
+    min-width: 121.75px;
 }
 img#navicon {
     width: 10.7%;
+    min-width: 40px;
 }
 
 #hero_section .navbar {
-    padding-right: 8%;
-    padding-left: 8%;
-    padding-top: 15px!important;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 25px!important;
 }
 }
