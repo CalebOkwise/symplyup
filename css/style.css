@@ -23,6 +23,11 @@ body{
     width: 100%;
 }
 
+.openat700 {
+    display: none;
+    visibility: hidden;
+}
+
 .navscreen{
     height: 100vh;
     background-color: #fff;
@@ -1175,6 +1180,8 @@ line-height: normal;
 
     #hero_section {
     height: 800px;
+    position: relative;
+    max-width: 100%;
     }
 
     
@@ -1421,4 +1428,38 @@ line-height: normal;
         max-width: 100%;
     }
 
+}
+
+@media only screen and (max-width: 700px){
+    .closeat700{
+        visibility: hidden;
+        display: none;
+    }
+
+    .openat700{
+        visibility: visible;
+        display: flex;
+        position: relative;
+    }
+
+.heroslideone, .heroslidefive, .heroslidefour, .heroslidetwo, .heroslidethree, .heroslidesix {
+    background: none;
+    height: 772px;
+}
+.heroright{
+height: 375px;
+}
+.heroleft{
+height: 397px;
+}
+
+.heroright img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+div#navbar.navbar{
+    max-width: 100%;
+    width: inherit;
+}
 }

@@ -163,6 +163,8 @@ document.querySelector('.linkf').addEventListener('click', navscreen);
         navbar.style.paddingTop="40px";
         navbar.style.display="flex";
         navbar.style.visibility="visible";
+        navbar.style.maxWidth="100%";
+        navbar.style.width="100%";
         }
         lastScrollTop = scrollTop
         })
