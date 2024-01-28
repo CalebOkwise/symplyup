@@ -53,7 +53,7 @@ body{
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
 }
 
 .heroslideone{
@@ -1189,6 +1189,7 @@ line-height: normal;
     width: 50%;
     font-size: 15px;
 }
+
 .lifecycle .p1 {
     width: 50%;
     font-size: 36px;
@@ -1422,12 +1423,12 @@ line-height: normal;
     .ctaddress p {
         max-width: 100%;
     }
-
+/*
     #hero_section .navbar {
         width: 100%;
         max-width: 100%;
     }
-
+*/
 }
 
 @media only screen and (max-width: 700px){
@@ -1458,8 +1459,10 @@ height: 397px;
     object-fit: cover;
     width: 100%;
 }
+/*
 div#navbar.navbar{
     max-width: 100%;
     width: inherit;
 }
+*/
 }
