@@ -1465,4 +1465,10 @@ div#navbar.navbar{
     width: inherit;
 }
 */
+img#logoimage {
+    width: 32.4%;
+}
+img#navicon {
+    width: 10.7%;
+}
 }
