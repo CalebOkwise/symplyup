@@ -85,6 +85,7 @@ $(document).ready(function(){
     }
     
 
+    
     $ideabtn.mouseenter(ideafunction);   
     $ideabtn.mouseleave(ideafunction);
     $sprintsbtn.mouseenter(sprintfunction);   
@@ -98,7 +99,7 @@ $(document).ready(function(){
     $launchbtn.mouseenter(launchfunction);   
     $launchbtn.mouseleave(launchfunction);
     $maintenancebtn.mouseover(maintenancefunction);
-    $maintenancebtn.mouseleave(maintenancefunction);
+    $maintenancebtn.mouseleave(maintenancefunction); 
     
     var scrollPoint1 = 840;
     var scrollPoint2 = 1740;
