@@ -1471,4 +1471,10 @@ img#logoimage {
 img#navicon {
     width: 10.7%;
 }
+
+#hero_section .navbar {
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 15px!important;
+}
 }
