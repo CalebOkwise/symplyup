@@ -1504,4 +1504,43 @@ img#navicon {
     .lifecycle .p1{
         font-size: 32px;
     }
+    .section{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    #developmentlifecycle {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .lifecycle {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .lifecycle .p2 {
+        padding-bottom: 60px;
+    }
+
+    .dropdown {
+        padding-left: 8%;
+    }
+
+    .rectangle {
+        width: 42.181%;
+    }
+
+    .therow .line {
+        width: 60%;
+    }
+    .thecontent {
+    padding-left: 40px;
+    }
+
+    .contenttext {
+        margin-left: -20px;
+        padding-right: 8%;
+    }
+
 }
