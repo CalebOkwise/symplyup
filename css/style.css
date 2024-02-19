@@ -1465,6 +1465,7 @@ div#navbar.navbar{
     width: inherit;
 }
 */
+
 img#logoimage {
     width: 32.4%;
     min-width: 121.75px;
@@ -1479,4 +1480,28 @@ img#navicon {
     padding-left: 4%;
     padding-top: 25px!important;
 }
+}
+
+@media only screen and (max-width: 700px){
+    .bulletsstyle button .thetoggled {
+        font-size: 10px;
+    }
+    button.glide__bullet.glide__bullet--active .const {
+        font-size: 10px;
+    }
+    .glide__bullet .const {
+        font-size: 10px;
+    }
+
+    #hero_section{
+        height: 100%;
+    }
+
+    .bulletsstyle {
+        bottom: 0px;
+    }
+
+    .lifecycle .p1{
+        font-size: 32px;
+    }
 }
