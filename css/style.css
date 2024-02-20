@@ -1580,4 +1580,78 @@ img#navicon {
         font-size: 22px;
     }
 
+    #ceo {
+        padding-top: 80px;
+        padding-left: 8%;
+        padding-right: 8%;
+        padding-bottom: 120px;
+    }
+
+    .column2 .ceopicture{
+        height: 356px;
+    }
+
+    .personsprofile {
+        font-size: 16px;
+    }
+
+    #ceo .column1 {
+        margin-top: 40px;
+    }
+
+    .designation {
+        font-weight: 700;
+    }
+
+    #contactus {
+        padding-top: 60px;
+    }
+
+    .contactl {
+        margin-top: 0px;
+    }
+
+    .contactustext {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .ctdescription {
+        margin-top: 12px;
+        font-size: 16px;
+    }
+
+    form {
+        margin-top: 30px;
+    }
+
+    .widthconfig {
+        width: 100%;
+    }
+
+    #ceo .column1 .contactusbtn{
+        display: none;
+        visibility: hidden;
+    }
+
+    .formrow {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    input{
+        height: 47px;
+        margin-bottom: 12px;
+    }
+
+    textarea {
+        margin-bottom: 24px;
+    }
+
+    .submitbtn {
+        width: 100%;
+        height: 47px;
+        font-size: 16px;
+    }
+
 }
