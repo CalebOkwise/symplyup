@@ -1654,4 +1654,44 @@ img#navicon {
         font-size: 16px;
     }
 
+    ::placeholder { 
+        font-size: 16px;
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-size: 16px;
+     }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+        font-size: 16px;
+      }
+
+      select {
+        height: 47px;
+        margin-bottom: 12px;
+        font-size: 16px;
+      }
+
+      textarea {
+        height: 141px;
+      }
+
+      .contactr {
+        margin-top: 120px;
+      }
+
+      .greybox {
+        height: 160px;
+        padding-left: 6.9%;
+        padding-right: 6.9%;
+        padding-top: 33px;
+        padding-bottom: 47px;
+
+      }
+
+      .greybox p {
+        color: #293037;
+        font-size: 14px;
+      }
+
 }
