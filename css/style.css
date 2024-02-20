@@ -634,6 +634,7 @@ opacity: 0.6;
 
 .pservices{
     margin-bottom: 0!important;
+    font-family: Jost;
 }
 
 .maincontents{
@@ -1774,5 +1775,51 @@ img#navicon {
       .ctaddress p {
         font-size: 14px;
       }
+
+}
+
+@media only screen and (max-width: 420px){
+
+    .navscreen{
+        max-width: 420px;
+    }
+    .navscreen .maincontents {
+        padding-left: 0%;
+    }
+
+    .pservices {
+        font-size: 16px;
+        margin-bottom: 6px !important;
+    }
+    .navscreenline {
+        margin-bottom: 0px;
+    }
+
+    .rowleft ul{
+        padding-top: 20.44px;
+    }
+    .rowleft ul li{
+        margin-bottom: 4px;
+    }
+
+    .rowright {
+        margin-top: 80px;
+    }
+
+    .rowleft ul li a {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .rowright p a {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .rrbtm {
+        position: relative;
+    margin-top: 20px;
+    }
 
 }
