@@ -1498,11 +1498,11 @@ img#navicon {
     }
 
     .bulletsstyle {
-        bottom: 0px;
+        bottom: -20px;
     }
 
     .lifecycle .p1{
-        font-size: 32px;
+        font-size: 30px;
     }
     .section{
         padding-left: 8%;
@@ -1541,6 +1541,31 @@ img#navicon {
     .contenttext {
         margin-left: -20px;
         padding-right: 8%;
+    }
+
+    .line1 {
+        flex-direction: column;
+    }
+
+    .imagediv {
+        width: 100%;
+        height: 275px;
+        margin-bottom: 6px;
+    }
+
+    .servicesdetails {
+        font-size: 18px;
+    }
+    .our_services {
+        font-size: 32px;
+    }
+
+    .heroleft p.content{
+        margin-bottom: 30px!important;
+    }
+
+    .heroleft {
+        padding-top: 30px;
     }
 
 }
