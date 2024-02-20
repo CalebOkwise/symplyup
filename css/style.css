@@ -1568,4 +1568,16 @@ img#navicon {
         padding-top: 30px;
     }
 
+    .whatwedoright {
+        padding-bottom: 80px;
+    }
+
+    .contenttext p {
+        line-height: 21px!important;
+    }
+
+    p.contentheading {
+        font-size: 22px;
+    }
+
 }
