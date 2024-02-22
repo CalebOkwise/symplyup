@@ -1521,8 +1521,8 @@ img#navicon {
 
 @media only screen and (max-width: 420px){
     .navscreen{
-        padding-right: 8%;
-        padding-left: 8%;
+        padding-right: 5%;
+        padding-left: 5%;
         padding-top: 20px;
     }
 
@@ -1781,7 +1781,9 @@ img#navicon {
 @media only screen and (max-width: 420px){
 
     .navscreen{
-        max-width: 420px;
+        max-width: 100vw;
+        width: 100%;
+
     }
     .navscreen .maincontents {
         padding-left: 0%;
