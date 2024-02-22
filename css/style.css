@@ -652,7 +652,7 @@ opacity: 0.6;
     position: relative;
 }
 .rowright p{
-    margin-bottom: 5px!important;
+    margin-bottom: 10px!important;
 }
 
 .rowright p a{
@@ -1800,7 +1800,11 @@ img#navicon {
         padding-top: 15px;
     }
     .rowleft ul li{
-        margin-bottom: 0px;
+        margin-bottom: 3px;
+    }
+
+    .rrbtm p{
+        font-size: 18px;
     }
 
     .rowright {
@@ -1820,7 +1824,12 @@ img#navicon {
 
     .rrbtm {
         position: relative;
-    margin-top: 20px;
+    margin-top: 35px;
+    }
+
+    .rrbtm a img {
+        height: 18.23px;
+        width: 18.23px;
     }
 
 }
