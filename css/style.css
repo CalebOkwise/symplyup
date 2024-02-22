@@ -652,7 +652,7 @@ opacity: 0.6;
     position: relative;
 }
 .rowright p{
-    margin-bottom: 20px!important;
+    margin-bottom: 5px!important;
 }
 
 .rowright p a{
@@ -1785,6 +1785,7 @@ img#navicon {
     }
     .navscreen .maincontents {
         padding-left: 0%;
+        padding-top: 40px;
     }
 
     .pservices {
@@ -1796,14 +1797,14 @@ img#navicon {
     }
 
     .rowleft ul{
-        padding-top: 20.44px;
+        padding-top: 15px;
     }
     .rowleft ul li{
-        margin-bottom: 4px;
+        margin-bottom: 0px;
     }
 
     .rowright {
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     .rowleft ul li a {
