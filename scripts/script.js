@@ -144,6 +144,7 @@ function navscreen() {
 }
 
 document.querySelector('.closescreen').addEventListener('click', navscreen);
+document.querySelector('.closescreen2').addEventListener('click', navscreen);
 document.querySelector('.linka').addEventListener('click', navscreen);
 document.querySelector('.linkb').addEventListener('click', navscreen);
 document.querySelector('.linkc').addEventListener('click', navscreen);
