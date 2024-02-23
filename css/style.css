@@ -1835,5 +1835,10 @@ img#navicon {
         height: 18.23px;
         width: 18.23px;
     }
+    
+    #services {
+    background-position: top;
+    background-size: auto;
+    }
 
 }
