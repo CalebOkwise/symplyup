@@ -48,12 +48,12 @@ body{
 #hero_section .navbar{
     position: fixed;
     z-index: 5000;
-    padding-left: 5.56%;
-    padding-right: 5.56%;
+    /* padding-left: 5.56%;
+    padding-right: 5.56%; */
     padding-top: 80px;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 80vw;
 }
 
 .heroslideone{
