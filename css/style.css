@@ -50,10 +50,12 @@ body{
     z-index: 5000;
     /* padding-left: 5.56%;
     padding-right: 5.56%; */
-    padding-top: 80px;
+    padding: 16px;
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 100%;
+    left: 0;
+    background: #040628;
 }
 
 .heroslideone{

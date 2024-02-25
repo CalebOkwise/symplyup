@@ -111,28 +111,28 @@ $(document).ready(function () {
 
     $(window).scroll(function () {
         var currentScrollPosition = $(this).scrollTop();
-        if (currentScrollPosition > scrollPoint1) {
-            logoimage.src = 'images/elitechnecoloured.svg';
-            navicon.src = 'images/colourednavicon.svg';
-        } else {
-            logoimage.src = 'images/elitetechnewhite.svg';
-            navicon.src = 'images/menubtn.svg';
-        }
+        // if (currentScrollPosition > scrollPoint1) {
+        //     logoimage.src = 'images/elitechnecoloured.svg';
+        //     navicon.src = 'images/colourednavicon.svg';
+        // } else {
+        //     logoimage.src = 'images/elitetechnewhite.svg';
+        //     navicon.src = 'images/menubtn.svg';
+        // }
 
-        if (currentScrollPosition > scrollPoint1 && scrollPoint2 > currentScrollPosition) {
-            logoimage.src = 'images/elitechnecoloured.svg';
-            navicon.src = 'images/colourednavicon.svg';
-        }
+        // if (currentScrollPosition > scrollPoint1 && scrollPoint2 > currentScrollPosition) {
+        //     logoimage.src = 'images/elitechnecoloured.svg';
+        //     navicon.src = 'images/colourednavicon.svg';
+        // }
 
-        if (currentScrollPosition > scrollPoint2 && scrollPoint3 > currentScrollPosition) {
-            logoimage.src = 'images/elitetechnewhite.svg';
-            navicon.src = 'images/menubtn.svg';
-        }
+        // if (currentScrollPosition > scrollPoint2 && scrollPoint3 > currentScrollPosition) {
+        //     logoimage.src = 'images/elitetechnewhite.svg';
+        //     navicon.src = 'images/menubtn.svg';
+        // }
 
-        if (currentScrollPosition > scrollPoint33 && scrollPoint4 > currentScrollPosition) {
-            logoimage.src = 'images/elitetechnewhite.svg';
-            navicon.src = 'images/menubtn.svg';
-        }
+        // if (currentScrollPosition > scrollPoint33 && scrollPoint4 > currentScrollPosition) {
+        //     logoimage.src = 'images/elitetechnewhite.svg';
+        //     navicon.src = 'images/menubtn.svg';
+        // }
     })
 
 })
